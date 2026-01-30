@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.zona-juego {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+}
+
+img {
+    cursor: pointer;
+    border: 2px solid #b302b9;
+    border-radius: 10px;
+}
+
+#resultado {
+    color: red;
+    font-size: 24px;
+}
+.tirada {
+    display: flex;              /* pone los div uno al lado del otro */
+    justify-content: center;    /* centra el contenido */
+    gap: 50px;                  /* espacio entre columnas */
+    margin-top: 20px;
+}
+
+.opciones, .estadisticas {
+    /* border: 2px solid #ccc; */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.tirada img {
+    transition: transform 0.3s ease; /*  animación de la imagen */
+}
+
+.tirada img:hover {
+    transform: scale(1.2) translateY(-10px); /* agranda la imagen y la mueve */
+}
