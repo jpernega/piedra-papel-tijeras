@@ -8,8 +8,8 @@ function tirada(jugador) {
     const cpu = eleccionCPU();
 
     // Cambiar las imágenes
-    document.getElementById("imgJugador").src = "../piedra/imagenes/" + jugador + ".png";
-    document.getElementById("imgCPU").src =  "../piedra/imagenes/" + cpu + ".png";
+    document.getElementById("imgJugador").src = "imagenes/" + jugador + ".png";
+    document.getElementById("imgCPU").src =  "imagenes/" + cpu + ".png";
 
     const resultado = comprobarResultado(jugador, cpu);
 
